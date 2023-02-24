@@ -30,11 +30,11 @@ export function Question(props: QuestionProps) {
             dangerouslySetInnerHTML={{ __html: ans }}>
         </div>
     })
-    answers.push(<div key={"last"}
-        style={{ marginLeft: "10px", borderLeft: "1px solid #ccc", padding: "5px" }}
-        dangerouslySetInnerHTML={{ __html: questionData.answers[questionData.correctAnswer] }}
-    >
-    </div>)
+    // answers.push(<div key={"last"}
+    //     style={{ marginLeft: "10px", borderLeft: "1px solid #ccc", padding: "5px" }}
+    //     dangerouslySetInnerHTML={{ __html: questionData.answers[questionData.correctAnswer] }}
+    // >
+    // </div>)
 
     return <div className="question-container">
         <h4 dangerouslySetInnerHTML={{ __html: questionData.question }}></h4>
