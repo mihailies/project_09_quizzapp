@@ -55,11 +55,6 @@ async function getQuestions(): Promise<any> {
   }
 }
 
-
-// TODO
-// convert special characters
-// add preloader
-
 export default function App() {
   const [inGame, setInGame] = useState(false);
   const [questions, setQuestions] = useState(() => {
